@@ -48,7 +48,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.health.probes.enabled="true" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: taptest.azurecr.io/taptest/workloads/app1-demo@sha256:58cc81e340dbc737d9c999917fdba530c7868127a32e4e0445ff32c9f24d8381
+        image: taptest.azurecr.io/taptest/workloads/app1-demo@sha256:232d35eb6ba2f422f7d57946fee66f8ccaf7fb3ba62d6cb0cc8afcc4876b488e
         livenessProbe:
           httpGet:
             path: /livez
