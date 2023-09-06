@@ -35,7 +35,7 @@ spec:
           value: build
         - name: BP_WEB_SERVER_ROOT
           value: build
-        image: taptest.azurecr.io/taptest/workloads/react-frontend-demo@sha256:30016b37618ea1c0744bb1b72701a116c7d0ba212693350a196263da834b40c2
+        image: taptest.azurecr.io/taptest/workloads/react-frontend-demo@sha256:464dab4130253521515e3574926232fa407c543b05d8f506854bdd38b75d5ce1
         name: workload
         resources: {}
         securityContext:
