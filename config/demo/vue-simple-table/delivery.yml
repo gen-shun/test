@@ -34,7 +34,7 @@ spec:
         carto.run/workload-name: vue-simple-table
     spec:
       containers:
-      - image: tapdemoacr.azurecr.io/taptest/workloads/vue-simple-table-demo@sha256:eafeb641db0042f8fbfdb6e8677ced246214ce19b2b0ab88756cc061b3349769
+      - image: tapdemoacr.azurecr.io/taptest/workloads/vue-simple-table-demo@sha256:c364c375a4703a1977c65edea3c05e025c2ccc06a7e5b3a33feb69496a3fa426
         name: workload
         resources: {}
         securityContext:
